@@ -14,8 +14,8 @@ jobs:
   resolve:
     runs-on: macOS-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: SwiftyLab/setup-swift@latest
+    - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
+    - uses: SwiftyLab/setup-swift@d60245579ea3836a3f2fa65ebbe1e8891d577c76 # latest (pinned)
       with:
         swift-version: "6.0"
     - name: Build Package
